@@ -1,9 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import { FaEnvelope, FaCheck } from 'react-icons/fa';
 
 const ThankYouScreen = () => {
-  const navigate = useNavigate();
+ 
 
   const handleResendEmail = () => {
     // Placeholder function for resending the confirmation email

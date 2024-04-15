@@ -33,7 +33,7 @@ const FinalScreen = () => {
             onClick={handleCardClick(setIsChecked1)}
           >
             <h3 className="card-heading">Plan 1</h3>
-            <img src={image1} alt="Image 1" className="card-image" />
+            <img src={image1} alt="several person talking" className="card-image" />
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div
               className={`checkbox-container ${isChecked1 ? 'selected' : ''}`}
@@ -46,7 +46,7 @@ const FinalScreen = () => {
             onClick={handleCardClick(setIsChecked2)}
           >
             <h3 className="card-heading">Plan 2</h3>
-            <img src={image2} alt="Image 2" className="card-image" />
+            <img src={image2} alt="laptop" className="card-image" />
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div
               className={`checkbox-container ${isChecked2 ? 'selected' : ''}`}
@@ -59,7 +59,7 @@ const FinalScreen = () => {
             onClick={handleCardClick(setIsChecked3)}
           >
             <h3 className="card-heading">Plan 3</h3>
-            <img src={image3} alt="Image 3" className="card-image" />
+            <img src={image3} alt="two person" className="card-image" />
             <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div
               className={`checkbox-container ${isChecked3 ? 'selected' : ''}`}

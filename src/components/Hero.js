@@ -39,7 +39,7 @@ const Hero = () => {
     <section className="hero">
       <div className="container flex">
         <div className="image-container">
-          <img src={heroimg} alt="Hero Image" className="image" />
+          <img src={heroimg} alt="a man working on laptop" className="image" />
         </div>
         <div className="form-container">
           <h1 className="hero-heading">Welcome to Brittle</h1>
@@ -65,8 +65,8 @@ const Hero = () => {
             <div className="checkbox">
               <input type="checkbox" id="agree" name="agree" onChange={handleInputChange} />
               <label htmlFor="agree">
-                I agree to the <a href="#">Terms of Service</a>, <a href="#">Privacy Policy</a>, and our default{' '}
-                <a href="#">Notification Settings.</a>
+                I agree to the <a href="termsofservice">Terms of Service</a>, <a href="privacypolicy">Privacy Policy</a>, and our default{' '}
+                <a href="notificationsettings">Notification Settings.</a>
               </label>
             </div>
             <button type="submit" className="create-account-btn">
@@ -74,7 +74,7 @@ const Hero = () => {
             </button>
           </form>
           <p className="sign-in-text">
-            Already a member? <a href="#" className="sign-in-link">
+            Already a member? <a href="sign.in" className="sign-in-link">
               Sign In
             </a>
           </p>
